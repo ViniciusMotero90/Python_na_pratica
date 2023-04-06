@@ -14,5 +14,5 @@ def reduzir_tamanho_imagens(input_dir, output_dir, ext='.jpg'):
         redimensionada.save(os.path.join(output_dir, nome_sem_ext + ext))
 
 if __name__ == "__main__":
-    diretorio = "C:/Users/W11/Pictures/Saved Pictures/"
+    diretorio = ""
     reduzir_tamanho_imagens(diretorio, 'downloads')
